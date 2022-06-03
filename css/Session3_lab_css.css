@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../images/session2.jpg");
+    background-size: cover;
+    font-size: 14px;
+    font-family: "Macondo";
+    font-weight: 400;
+    text-align: left;
+    color: black;
+    line-height: 20px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+div{
+    float: left;
+}
+#tong{
+    background-color: #fafafa;
+    width: calc(100% - 600px);
+    height:1200px;
+    border: none;
+    margin: 100px 300px;
+    margin-bottom: none;
+    padding: none;
+}
+#ptren{
+    background-color: cadetblue;
+    width: calc(30% - 40px);
+    height:100px;
+    border: none;
+    padding: 20px;
+}
+#ttren{
+    background-color: cadetblue;
+    width: calc(70% - 40px);
+    height: 100px;
+    border: none;
+    padding: 20px;
+}
+#tduoi{
+    background-color: white;
+    width: calc(25% - 40px);
+    height: 1140px;
+    border: none;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: -120px;
+
+}
+#pduoi{
+    background-color: #fafafa;
+    width: calc(75% - 60px);
+    height: 1020px;
+    padding: 20px;
+}
+.anh{
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/download.jpg");
+    background-size: cover;
+    margin-left: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.thongtin{
+    width: calc(100% - 80px);
+    height: 1040px;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: 10px;
+}
